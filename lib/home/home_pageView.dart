@@ -117,6 +117,7 @@ class _HomePageViewState extends State<HomePageView> {
                  return CustomScrollView(
                 slivers: [
                   SliverList.separated(
+                    
                     separatorBuilder: (context, index) =>const SizedBox(height: 20,),
                     itemCount: snapshot.data!.length,
                     itemBuilder: (context, index) =>
